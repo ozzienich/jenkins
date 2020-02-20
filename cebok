@@ -2,22 +2,22 @@ pipeline {
     agent any
 
     stages {
-        stage('nyaloin') {
+        stage('berak.in') {
             steps {
                 echo 'Building..'
             }
         }
-        stage('Mandiin') {
+        stage('cebok.in') {
             steps {
                 echo 'Testing..'
             }
         }        
-        stage('Mandiin') {
+        stage('mandi.in') {
             steps {
                 echo 'Testing..'
             }
         }
-        stage('Nyayur') {
+        stage('NYAYUR') {
             steps {
                 echo 'Deploying....'
             }
